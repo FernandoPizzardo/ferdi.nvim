@@ -24,3 +24,6 @@ vim.keymap.set("i", "<C-a>", "<ESC>")
 -- split commands
 vim.keymap.set("n", "<leader>q", "<cmd> :only <CR>")
 vim.keymap.set("n", "<leader>vs", "<cmd> vsplit <CR>")
+
+-- LSP remaps
+vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action)
