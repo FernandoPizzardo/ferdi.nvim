@@ -17,4 +17,6 @@ return { 'tpope/vim-fugitive',
     keys = {
       { "<leader>g", "<cmd>LazyGit<cr>", desc = "LazyGit" }
     }
-  } }
+  },
+  'lewis6991/gitsigns.nvim',
+}
